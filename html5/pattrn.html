@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <label for="pwd">pwd : </label>
+            <input type="password" name="pwd" id="pwd" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
+        </p>
+        <p>
+            <label for="pwd">pwd : </label>
+            <input type="password" name="pwd" id="pwd" pattern="(?=^.{3,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+        </p>
+        <p>
+            <label for="url">url : </label>
+            <input type="url" name="url" id="url" pattern="https?://.+">
+        </p>
+        <p>
+            <label for="text">text : </label>
+            <input type="text" name="text" id="text" pattern="^[A-Za-z0-9_]{1,15}$">
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
