@@ -1,0 +1,43 @@
+html,
+body,
+div {
+    height: 100%;
+    width: 100%;
+}
+div {
+    background-color: yellow;
+}
+.div1 {
+    background-color: blue;
+
+    height: 30%;
+    width: 30%;
+}
+.div2 {
+    background-color: crimson;
+    height: 50%;
+    width: 50%;
+}
+
+
+.div3 {
+    background-color: lightblue;
+    height: 50%;
+    width: 50%;
+}
+
+.div5 {
+    background-color: lightsalmon;
+    width: 30vmax;
+    height: 30vmax;
+}
+
+.div6 {
+    background-color: lightseagreen;
+    width: 20vmin;
+    height: 20vmin;
+}
+
+* {
+    font-family: sans-serif;
+}
