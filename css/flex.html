@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            border: 1px solid red;
+        }
+        html,
+        body,
+        .container {
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            align-items: start;
+            /* justify-content: space-evenly; */
+            justify-content: space-evenly;
+
+            
+
+            /* flex-wrap: wrap-reverse; */
+            flex-wrap: wrap;
+            gap: 2rem;
+
+            flex-direction: row-reverse;
+        }
+        .box {
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+        }
+        .box1 {
+            /* flex-grow: 1; */
+            /* flex-shrink: 2; */
+
+            background-color: crimson;
+            /* width: 100px;
+            height: 50px; */
+        }
+        .box2 {
+            /* flex-grow: 2; */
+            /* flex-shrink: .4; */
+            background-color: lightseagreen;
+            /* height: 200px; */
+        }
+        .box3 {
+            /* flex-grow: 3; */
+            /* flex-shrink: 1.5; */
+            background-color: aqua;
+            order: -1;
+        }
+        .box4 {
+            order: -1;
+        }
+        .box2 {
+            order: -4;
+        }
+        .box30 {
+            order: -10;
+        }
+    </style>    
+    <div class="container">
+       <div class="box box1">1 lorem lorem</div>
+       <div class="box box2">2 lorem lorem</div>
+       <div class="box box3">3 lorem lorem</div>
+       <!-- <div class="box box4">4 lorem lorem</div>
+       <div class="box box5">5 lorem lorem</div>
+       <div class="box box6">6 lorem lorem</div>
+       <div class="box box7">7 lorem lorem</div>
+       <div class="box box8">8 lorem lorem</div>
+       <div class="box box9">9 lorem lorem</div>
+       <div class="box box10">10 lorem lorem</div>
+       <div class="box box11">11 lorem lorem</div>
+       <div class="box box12">12 lorem lorem</div>
+       <div class="box box13">13 lorem lorem</div>
+       <div class="box box14">14 lorem lorem</div>
+       <div class="box box15">15 lorem lorem</div>
+       <div class="box box16">16 lorem lorem</div>
+       <div class="box box17">17 lorem lorem</div>
+       <div class="box box18">18 lorem lorem</div>
+       <div class="box box19">19 lorem lorem</div>
+       <div class="box box20">20 lorem lorem</div>
+       <div class="box box21">21 lorem lorem</div>
+       <div class="box box22">22 lorem lorem</div>
+       <div class="box box23">23 lorem lorem</div>
+       <div class="box box24">24 lorem lorem</div>
+       <div class="box box25">25 lorem lorem</div>
+       <div class="box box26">26 lorem lorem</div>
+       <div class="box box27">27 lorem lorem</div>
+       <div class="box box28">28 lorem lorem</div>
+       <div class="box box29">29 lorem lorem</div>
+       <div class="box box30">30 lorem lorem</div>
+       <div class="box box28">28 lorem lorem</div>
+       <div class="box box29">29 lorem lorem</div>
+       <div class="box box30">30 30 lorem lorem</div> -->
+    </div>
+</body>
+</html>
