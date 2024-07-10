@@ -71,12 +71,15 @@
                 padding: 4rem 7rem;
                 border-radius: 80px;
                 font-weight: lighter;
+
+                position: relative;
             }
             h1:hover {
                 /* font-size: 1.5rem; */
                 background-color: black;
                 color: white;
                 scale: 1.1;
+
             }
             p {
                 transition: transform 0.3s linear;
@@ -85,20 +88,26 @@
                 border: 1px solid red;
                 overflow: hidden;
                 height: 2rem;
+                position: relative;
             }
             span {
                 display: block;
             }
-            h1:hover {
-                
+            h1:hover .span-2 {
+                position: absolute;
+                top: 100%;
+            }
+            h1:hover .span-1 {
+                position: absolute;
+                top: 0;
             }
             h1:hover p {
                 /* rotate: 10deg; */
-                transform: rotateX(360deg);
+                /* transform: rotateX(360deg); */
             }
         </style>
         <h1>
-            <p><span>hello world1</span> <span class="span-2">hello world2</span></p>
+            <p><span class="span-1">hello world1</span> <span class="span-2">hello world2</span></p>
         </h1>
     </body>
 </html>
