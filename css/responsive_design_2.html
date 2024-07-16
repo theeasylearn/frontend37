@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            letter-spacing: 1px;
+            font-family: "Source Sans 3", sans-serif;
+            box-sizing: border-box;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Libre Baskerville", serif;
+        }
+
+        body {
+            padding: 5px 10px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        section>article {
+            margin-bottom: 20px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        section>article>p {
+            text-align: justify;
+        }
+
+        /* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+        @media (min-width: 1281px) {
+            /* code in this block will be applied only if device width>1281 */
+              section>article {
+                width: 20%;
+                font-size: 16px;
+            }
+        }
+
+        /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+        @media (min-width: 1025px) and (max-width: 1280px) {
+            /* code in this block will be applied only if device width>1025 and <1280 */
+             section>article {
+                width: 25%;
+                font-size: 16px;
+            }
+        }
+
+        /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+        @media (min-width: 768px) and (max-width: 1024px) {
+            /* code in this block will be applied only if device width>768 and <1024 */
+             section>article {
+                width: 33.33%;
+                font-size: 18px;
+            }
+        }
+
+        /* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+        @media (min-width: 481px) and (max-width: 767px) {
+            section>article {
+                width: 50%;
+                font-size: 18px;
+            }
+        }
+
+        /*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
+        @media (min-width: 320px) and (max-width: 480px) {
+            section>article {
+                width: 100%;
+                font-size: 20px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <article>
+            <header>
+                <h3>News 1</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nihil quas reiciendis maiores
+                incidunt
+                molestias doloribus suscipit ex rerum repellat, inventore fuga quod dolorem recusandae quae ratione, eos
+                unde
+                illo non! Incidunt doloribus in ratione, inventore laudantium magnam ullam neque minima sit vero.
+                Fugiat,
+                laborum repellendus quidem, unde dolores inventore incidunt nam dolor, facere asperiores voluptates
+                porro
+                laboriosam voluptatibus magni nobis soluta cupiditate! Quasi repellat debitis numquam temporibus odit
+                inventore.
+                Quibusdam rem, similique nihil fugit nesciunt atque adipisci accusamus sint dolores nisi quod in maxime
+                dolore
+                impedit minima cumque distinctio, eum tempore. Soluta, nemo facilis asperiores reiciendis nam harum
+                accusantium.
+            </p>
+            <footer>
+                reported by : Vedant & Rutvik
+            </footer>
+        </article>
+
+        <article>
+            <header>
+                <h3>News 2</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nihil quas reiciendis maiores
+                incidunt
+                molestias doloribus suscipit ex rerum repellat, inventore fuga quod dolorem recusandae quae ratione, eos
+                unde
+                illo non! Incidunt doloribus in ratione, inventore laudantium magnam ullam neque minima sit vero.
+                Fugiat,
+                laborum repellendus quidem, unde dolores inventore incidunt nam dolor, facere asperiores voluptates
+                porro
+                laboriosam voluptatibus magni nobis soluta cupiditate! Quasi repellat debitis numquam temporibus odit
+                inventore.
+                Quibusdam rem, similique nihil fugit nesciunt atque adipisci accusamus sint dolores nisi quod in maxime
+                dolore
+                impedit minima cumque distinctio, eum tempore. Soluta, nemo facilis asperiores reiciendis nam harum
+                accusantium.
+            </p>
+            <footer>
+                reported by : Vedant & Rutvik
+            </footer>
+        </article>
+
+        <article>
+            <header>
+                <h3>News 3</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nihil quas reiciendis maiores
+                incidunt
+                molestias doloribus suscipit ex rerum repellat, inventore fuga quod dolorem recusandae quae ratione, eos
+                unde
+                illo non! Incidunt doloribus in ratione, inventore laudantium magnam ullam neque minima sit vero.
+                Fugiat,
+                laborum repellendus quidem, unde dolores inventore incidunt nam dolor, facere asperiores voluptates
+                porro
+                laboriosam voluptatibus magni nobis soluta cupiditate! Quasi repellat debitis numquam temporibus odit
+                inventore.
+                Quibusdam rem, similique nihil fugit nesciunt atque adipisci accusamus sint dolores nisi quod in maxime
+                dolore
+                impedit minima cumque distinctio, eum tempore. Soluta, nemo facilis asperiores reiciendis nam harum
+                accusantium.
+            </p>
+            <footer>
+                reported by : Vedant & Rutvik
+            </footer>
+        </article>
+
+        <article>
+            <header>
+                <h3>News 4</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nihil quas reiciendis maiores
+                incidunt
+                molestias doloribus suscipit ex rerum repellat, inventore fuga quod dolorem recusandae quae ratione, eos
+                unde
+                illo non! Incidunt doloribus in ratione, inventore laudantium magnam ullam neque minima sit vero.
+                Fugiat,
+                laborum repellendus quidem, unde dolores inventore incidunt nam dolor, facere asperiores voluptates
+                porro
+                laboriosam voluptatibus magni nobis soluta cupiditate! Quasi repellat debitis numquam temporibus odit
+                inventore.
+                Quibusdam rem, similique nihil fugit nesciunt atque adipisci accusamus sint dolores nisi quod in maxime
+                dolore
+                impedit minima cumque distinctio, eum tempore. Soluta, nemo facilis asperiores reiciendis nam harum
+                accusantium.
+            </p>
+            <footer>
+                reported by : Vedant & Rutvik
+            </footer>
+        </article>
+
+        <article>
+            <header>
+                <h3>News 5</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nihil quas reiciendis maiores
+                incidunt
+                molestias doloribus suscipit ex rerum repellat, inventore fuga quod dolorem recusandae quae ratione, eos
+                unde
+                illo non! Incidunt doloribus in ratione, inventore laudantium magnam ullam neque minima sit vero.
+                Fugiat,
+                laborum repellendus quidem, unde dolores inventore incidunt nam dolor, facere asperiores voluptates
+                porro
+                laboriosam voluptatibus magni nobis soluta cupiditate! Quasi repellat debitis numquam temporibus odit
+                inventore.
+                Quibusdam rem, similique nihil fugit nesciunt atque adipisci accusamus sint dolores nisi quod in maxime
+                dolore
+                impedit minima cumque distinctio, eum tempore. Soluta, nemo facilis asperiores reiciendis nam harum
+                accusantium.
+            </p>
+            <footer>
+                reported by : Vedant & Rutvik
+            </footer>
+        </article>
+
+        <article>
+            <header>
+                <h3>News 6</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nihil quas reiciendis maiores
+                incidunt
+                molestias doloribus suscipit ex rerum repellat, inventore fuga quod dolorem recusandae quae ratione, eos
+                unde
+                illo non! Incidunt doloribus in ratione, inventore laudantium magnam ullam neque minima sit vero.
+                Fugiat,
+                laborum repellendus quidem, unde dolores inventore incidunt nam dolor, facere asperiores voluptates
+                porro
+                laboriosam voluptatibus magni nobis soluta cupiditate! Quasi repellat debitis numquam temporibus odit
+                inventore.
+                Quibusdam rem, similique nihil fugit nesciunt atque adipisci accusamus sint dolores nisi quod in maxime
+                dolore
+                impedit minima cumque distinctio, eum tempore. Soluta, nemo facilis asperiores reiciendis nam harum
+                accusantium.
+            </p>
+            <footer>
+                reported by : Vedant & Rutvik
+            </footer>
+        </article>
+    </section>
+</body>
+
+</html>
